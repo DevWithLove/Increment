@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023F642D26A4089D001DCF6B /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023F642C26A4089D001DCF6B /* CreateView.swift */; };
+		023F642F26A40943001DCF6B /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023F642E26A40943001DCF6B /* DropdownView.swift */; };
+		029691DA26A415C000B2AA5D /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029691D926A415C000B2AA5D /* RemindView.swift */; };
 		02D842BB26A27ADD00C83BA1 /* IncrementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D842BA26A27ADD00C83BA1 /* IncrementApp.swift */; };
 		02D842BD26A27ADD00C83BA1 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D842BC26A27ADD00C83BA1 /* LandingView.swift */; };
 		02D842BF26A27ADE00C83BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D842BE26A27ADE00C83BA1 /* Assets.xcassets */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023F642C26A4089D001DCF6B /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		023F642E26A40943001DCF6B /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
+		029691D926A415C000B2AA5D /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
 		02D842B726A27ADD00C83BA1 /* Increment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Increment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D842BA26A27ADD00C83BA1 /* IncrementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementApp.swift; sourceTree = "<group>"; };
 		02D842BC26A27ADD00C83BA1 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
@@ -82,6 +88,9 @@
 				023F642B26A3F095001DCF6B /* Helpers */,
 				023F642A26A3F07D001DCF6B /* Modifiers */,
 				02D842BC26A27ADD00C83BA1 /* LandingView.swift */,
+				023F642C26A4089D001DCF6B /* CreateView.swift */,
+				023F642E26A40943001DCF6B /* DropdownView.swift */,
+				029691D926A415C000B2AA5D /* RemindView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -293,6 +302,9 @@
 				02D842BD26A27ADD00C83BA1 /* LandingView.swift in Sources */,
 				02D842BB26A27ADD00C83BA1 /* IncrementApp.swift in Sources */,
 				02D842E826A2845E00C83BA1 /* ColorExtensions.swift in Sources */,
+				029691DA26A415C000B2AA5D /* RemindView.swift in Sources */,
+				023F642D26A4089D001DCF6B /* CreateView.swift in Sources */,
+				023F642F26A40943001DCF6B /* DropdownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
