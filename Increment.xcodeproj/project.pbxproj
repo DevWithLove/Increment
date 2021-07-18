@@ -76,6 +76,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		023F642926A3F04A001DCF6B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				023F642B26A3F095001DCF6B /* Helpers */,
+				023F642A26A3F07D001DCF6B /* Modifiers */,
+				02D842BC26A27ADD00C83BA1 /* LandingView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		023F642A26A3F07D001DCF6B /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				02D842E526A2826C00C83BA1 /* PrimaryButtonStyle.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		023F642B26A3F095001DCF6B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				02D842E726A2845E00C83BA1 /* ColorExtensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		02D842AE26A27ADD00C83BA1 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +125,11 @@
 		02D842B926A27ADD00C83BA1 /* Increment */ = {
 			isa = PBXGroup;
 			children = (
+				023F642926A3F04A001DCF6B /* UI */,
 				02D842BA26A27ADD00C83BA1 /* IncrementApp.swift */,
-				02D842BC26A27ADD00C83BA1 /* LandingView.swift */,
 				02D842BE26A27ADE00C83BA1 /* Assets.xcassets */,
 				02D842C326A27ADE00C83BA1 /* Info.plist */,
 				02D842C026A27ADE00C83BA1 /* Preview Content */,
-				02D842E526A2826C00C83BA1 /* PrimaryButtonStyle.swift */,
-				02D842E726A2845E00C83BA1 /* ColorExtensions.swift */,
 			);
 			path = Increment;
 			sourceTree = "<group>";
