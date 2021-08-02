@@ -17,6 +17,17 @@ struct CreateView: View {
         }
     }
     
+    var actionSheet: ActionSheet {
+        ActionSheet(title: Text("Selected"),
+                    message: nil,
+                    buttons: viewModel.displayedOptions.indices.map { index in
+                        let option = viewModel.displayedOptions[index]
+                        return ActionSheet.Button.default(Text(option.formatted)) {
+                            viewModel.send(action: .selectOption(index: index))
+                        }
+                    })
+    }
+    
     var body: some View {
         ScrollView {
             VStack {
@@ -31,7 +42,16 @@ struct CreateView: View {
                             .foregroundColor(.primary)
                     }
                 }
-            }.navigationBarTitle(Text("Create"))
+            }
+            .actionSheet(
+                isPresented: Binding<Bool> (
+                    get: {
+                        viewModel.hasSelectedDropdown
+                    }, set: { _ in })
+            ) {
+                actionSheet
+            }
+            .navigationBarTitle(Text("Create"))
             .navigationBarBackButtonHidden(true)
             .padding(.bottom, 15)
         }
