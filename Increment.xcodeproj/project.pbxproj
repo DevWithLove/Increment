@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		024838D726A52CE200B96D24 /* DropdownItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024838D626A52CE200B96D24 /* DropdownItemProtocol.swift */; };
 		0290E06826B8D84F00C39D08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */; };
 		029691DA26A415C000B2AA5D /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029691D926A415C000B2AA5D /* RemindView.swift */; };
+		02D340FA26B9052500145932 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D340F926B9052500145932 /* UserService.swift */; };
 		02D842BB26A27ADD00C83BA1 /* IncrementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D842BA26A27ADD00C83BA1 /* IncrementApp.swift */; };
 		02D842BD26A27ADD00C83BA1 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D842BC26A27ADD00C83BA1 /* LandingView.swift */; };
 		02D842BF26A27ADE00C83BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D842BE26A27ADE00C83BA1 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		024838D626A52CE200B96D24 /* DropdownItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownItemProtocol.swift; sourceTree = "<group>"; };
 		0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		029691D926A415C000B2AA5D /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
+		02D340F926B9052500145932 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		02D842B726A27ADD00C83BA1 /* Increment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Increment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D842BA26A27ADD00C83BA1 /* IncrementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementApp.swift; sourceTree = "<group>"; };
 		02D842BC26A27ADD00C83BA1 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
@@ -142,6 +144,14 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		02D340F826B904FF00145932 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				02D340F926B9052500145932 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		02D842AE26A27ADD00C83BA1 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +177,7 @@
 		02D842B926A27ADD00C83BA1 /* Increment */ = {
 			isa = PBXGroup;
 			children = (
+				02D340F826B904FF00145932 /* Services */,
 				0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */,
 				023F642926A3F04A001DCF6B /* UI */,
 				02D842BA26A27ADD00C83BA1 /* IncrementApp.swift */,
@@ -213,7 +224,6 @@
 				F2587E283A245684180DEB7E /* Pods-IncrementTests.debug.xcconfig */,
 				0E3492323706E5CD8A521264 /* Pods-IncrementTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -471,6 +481,7 @@
 				024838D726A52CE200B96D24 /* DropdownItemProtocol.swift in Sources */,
 				02D842E826A2845E00C83BA1 /* ColorExtensions.swift in Sources */,
 				024838D526A52C0400B96D24 /* CreateChallengeViewModel.swift in Sources */,
+				02D340FA26B9052500145932 /* UserService.swift in Sources */,
 				029691DA26A415C000B2AA5D /* RemindView.swift in Sources */,
 				023F642D26A4089D001DCF6B /* CreateView.swift in Sources */,
 				023F642F26A40943001DCF6B /* DropdownView.swift in Sources */,

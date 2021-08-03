@@ -3,4 +3,54 @@
    uuid = "7B1E26B5-C2F2-41B0-A6CE-851CCCE41075"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "286EBA83-3C26-47CC-B7AE-094558D852A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Increment/Services/UserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "signInAnonymously()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "286EBA83-3C26-47CC-B7AE-094558D852A0 - 67c2114d878c237a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;__C.FIRUser, Swift.Error&gt;) -&gt; ()) -&gt; () in Increment.UserService.signInAnonymously() -&gt; Combine.AnyPublisher&lt;__C.FIRUser, Swift.Error&gt;"
+                  moduleName = "Increment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonymu/Dev/Increment/Increment/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "286EBA83-3C26-47CC-B7AE-094558D852A0 - eea57e6f03fd2547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 ((Swift.Result&lt;__C.FIRUser, Swift.Error&gt;) -&gt; ()) -&gt; () in Increment.UserService.signInAnonymously() -&gt; Combine.AnyPublisher&lt;__C.FIRUser, Swift.Error&gt;"
+                  moduleName = "Increment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonymu/Dev/Increment/Increment/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "170">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
