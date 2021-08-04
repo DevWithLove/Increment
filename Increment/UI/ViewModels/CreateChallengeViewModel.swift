@@ -20,6 +20,8 @@ final class CreateChallengeViewModel: ObservableObject {
     @Published var increaseDropdown = ChallengePartViewModel(type: .increase)
     @Published var lengthDropdown = ChallengePartViewModel(type: .length)
 
+    @Published var error: IncrementError?
+    @Published var isLoading: Bool = false
     
     enum Action {
         case createChallenge
@@ -34,12 +36,14 @@ final class CreateChallengeViewModel: ObservableObject {
     func send(action: Action) {
         switch action {
         case .createChallenge:
-            currentUserId().flatMap { userId -> AnyPublisher<Void, Error> in
+            isLoading = true
+            currentUserId().flatMap { userId -> AnyPublisher<Void, IncrementError> in
                 self.createChallenge(userId: userId)
             }.sink { completion in
+                self.isLoading = false
                 switch completion {
                 case .failure(let error):
-                    print(error.localizedDescription)
+                    self.error = error
                 case .finished:
                     print("Finished")
                 }
@@ -49,12 +53,12 @@ final class CreateChallengeViewModel: ObservableObject {
         }
     }
     
-    private func createChallenge(userId: UserId) -> AnyPublisher<Void, Error> {
+    private func createChallenge(userId: UserId) -> AnyPublisher<Void, IncrementError> {
         guard let execrise = execriseDropdown.text,
               let startAmount = startAmountDropdown.number,
               let increase = increaseDropdown.number,
               let length = lengthDropdown.number else {
-            return Fail(error: NSError()).eraseToAnyPublisher()
+            return Fail(error: .default(description: "Unable to get selected value")).eraseToAnyPublisher()
         }
         
         let challenge = Challenge(exercise: execrise,
@@ -66,11 +70,11 @@ final class CreateChallengeViewModel: ObservableObject {
         return challengeService.create(challenge)
     }
     
-    private func currentUserId() -> AnyPublisher<UserId, Error> {
-        return userService.currentUser().flatMap { user -> AnyPublisher<UserId, Error> in
+    private func currentUserId() -> AnyPublisher<UserId, IncrementError> {
+        return userService.currentUser().flatMap { user -> AnyPublisher<UserId, IncrementError> in
             if let userId = user?.uid {
                 return Just(userId)
-                    .setFailureType(to: Error.self)
+                    .setFailureType(to: IncrementError.self)
                     .eraseToAnyPublisher()
             } else {
                 return self.userService // ? weak self?

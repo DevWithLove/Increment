@@ -13,6 +13,7 @@
 		024838D726A52CE200B96D24 /* DropdownItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024838D626A52CE200B96D24 /* DropdownItemProtocol.swift */; };
 		02827AFF26BA466B00DB86E6 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827AFE26BA466B00DB86E6 /* Challenge.swift */; };
 		02827B0126BA476A00DB86E6 /* ChallengeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827B0026BA476A00DB86E6 /* ChallengeService.swift */; };
+		02827B0326BA777200DB86E6 /* IncrementError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827B0226BA777200DB86E6 /* IncrementError.swift */; };
 		0290E06826B8D84F00C39D08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */; };
 		029691DA26A415C000B2AA5D /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029691D926A415C000B2AA5D /* RemindView.swift */; };
 		02D340FA26B9052500145932 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D340F926B9052500145932 /* UserService.swift */; };
@@ -53,6 +54,7 @@
 		024838D626A52CE200B96D24 /* DropdownItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownItemProtocol.swift; sourceTree = "<group>"; };
 		02827AFE26BA466B00DB86E6 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		02827B0026BA476A00DB86E6 /* ChallengeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeService.swift; sourceTree = "<group>"; };
+		02827B0226BA777200DB86E6 /* IncrementError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementError.swift; sourceTree = "<group>"; };
 		0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		029691D926A415C000B2AA5D /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
 		02D340F926B9052500145932 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				02D842BE26A27ADE00C83BA1 /* Assets.xcassets */,
 				02D842C326A27ADE00C83BA1 /* Info.plist */,
 				02D842C026A27ADE00C83BA1 /* Preview Content */,
+				02827B0226BA777200DB86E6 /* IncrementError.swift */,
 			);
 			path = Increment;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 				02827B0126BA476A00DB86E6 /* ChallengeService.swift in Sources */,
 				023F642D26A4089D001DCF6B /* CreateView.swift in Sources */,
 				023F642F26A40943001DCF6B /* DropdownView.swift in Sources */,
+				02827B0326BA777200DB86E6 /* IncrementError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
