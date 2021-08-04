@@ -11,20 +11,12 @@ struct CreateView: View {
     @StateObject var viewModel = CreateChallengeViewModel()
     
     var dropdownList: some View {
-        ForEach(viewModel.dropdowns.indices, id: \.self) { index in
-            DropdownView(viewModel: $viewModel.dropdowns[index])
+        Group {
+            DropdownView(viewModel: $viewModel.execriseDropdown)
+            DropdownView(viewModel: $viewModel.startAmountDropdown)
+            DropdownView(viewModel: $viewModel.increaseDropdown)
+            DropdownView(viewModel: $viewModel.lengthDropdown)
         }
-    }
-    
-    var actionSheet: ActionSheet {
-        ActionSheet(title: Text("Selected"),
-                    message: nil,
-                    buttons: viewModel.displayedOptions.indices.map { index in
-                        let option = viewModel.displayedOptions[index]
-                        return ActionSheet.Button.default(Text(option.formatted)) {
-                            viewModel.send(action: .selectOption(index: index))
-                        }
-                    })
     }
     
     var body: some View {
@@ -40,14 +32,6 @@ struct CreateView: View {
                         .foregroundColor(.primary)
                 }
                 
-            }
-            .actionSheet(
-                isPresented: Binding<Bool> (
-                    get: {
-                        viewModel.hasSelectedDropdown
-                    }, set: { _ in })
-            ) {
-                actionSheet
             }
             .navigationBarTitle(Text("Create"))
             .navigationBarBackButtonHidden(true)
