@@ -14,6 +14,12 @@
 		02827AFF26BA466B00DB86E6 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827AFE26BA466B00DB86E6 /* Challenge.swift */; };
 		02827B0126BA476A00DB86E6 /* ChallengeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827B0026BA476A00DB86E6 /* ChallengeService.swift */; };
 		02827B0326BA777200DB86E6 /* IncrementError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827B0226BA777200DB86E6 /* IncrementError.swift */; };
+		02827B0626BB9BE800DB86E6 /* AuthPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827B0526BB9BE800DB86E6 /* AuthPublisher.swift */; };
+		02827B0826C08FD000DB86E6 /* TabContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827B0726C08FD000DB86E6 /* TabContainerView.swift */; };
+		02827B0A26C0904900DB86E6 /* TabContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827B0926C0904900DB86E6 /* TabContainerViewModel.swift */; };
+		02827B0C26C10F1400DB86E6 /* ChallengeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827B0B26C10F1400DB86E6 /* ChallengeListView.swift */; };
+		02827B0E26C10F4400DB86E6 /* ChallengeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827B0D26C10F4400DB86E6 /* ChallengeListViewModel.swift */; };
+		02827B1026C1103600DB86E6 /* QuerySnapshotPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827B0F26C1103600DB86E6 /* QuerySnapshotPublisher.swift */; };
 		0290E06826B8D84F00C39D08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */; };
 		029691DA26A415C000B2AA5D /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029691D926A415C000B2AA5D /* RemindView.swift */; };
 		02D340FA26B9052500145932 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D340F926B9052500145932 /* UserService.swift */; };
@@ -55,6 +61,12 @@
 		02827AFE26BA466B00DB86E6 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		02827B0026BA476A00DB86E6 /* ChallengeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeService.swift; sourceTree = "<group>"; };
 		02827B0226BA777200DB86E6 /* IncrementError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementError.swift; sourceTree = "<group>"; };
+		02827B0526BB9BE800DB86E6 /* AuthPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPublisher.swift; sourceTree = "<group>"; };
+		02827B0726C08FD000DB86E6 /* TabContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContainerView.swift; sourceTree = "<group>"; };
+		02827B0926C0904900DB86E6 /* TabContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContainerViewModel.swift; sourceTree = "<group>"; };
+		02827B0B26C10F1400DB86E6 /* ChallengeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeListView.swift; sourceTree = "<group>"; };
+		02827B0D26C10F4400DB86E6 /* ChallengeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeListViewModel.swift; sourceTree = "<group>"; };
+		02827B0F26C1103600DB86E6 /* QuerySnapshotPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuerySnapshotPublisher.swift; sourceTree = "<group>"; };
 		0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		029691D926A415C000B2AA5D /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
 		02D340F926B9052500145932 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
@@ -121,6 +133,8 @@
 				023F642C26A4089D001DCF6B /* CreateView.swift */,
 				023F642E26A40943001DCF6B /* DropdownView.swift */,
 				029691D926A415C000B2AA5D /* RemindView.swift */,
+				02827B0726C08FD000DB86E6 /* TabContainerView.swift */,
+				02827B0B26C10F1400DB86E6 /* ChallengeListView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -146,6 +160,8 @@
 			children = (
 				024838D426A52C0400B96D24 /* CreateChallengeViewModel.swift */,
 				024838D626A52CE200B96D24 /* DropdownItemProtocol.swift */,
+				02827B0926C0904900DB86E6 /* TabContainerViewModel.swift */,
+				02827B0D26C10F4400DB86E6 /* ChallengeListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -156,6 +172,15 @@
 				02827AFE26BA466B00DB86E6 /* Challenge.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		02827B0426BB9BB700DB86E6 /* Publishers */ = {
+			isa = PBXGroup;
+			children = (
+				02827B0526BB9BE800DB86E6 /* AuthPublisher.swift */,
+				02827B0F26C1103600DB86E6 /* QuerySnapshotPublisher.swift */,
+			);
+			path = Publishers;
 			sourceTree = "<group>";
 		};
 		02D340F826B904FF00145932 /* Services */ = {
@@ -192,6 +217,7 @@
 		02D842B926A27ADD00C83BA1 /* Increment */ = {
 			isa = PBXGroup;
 			children = (
+				02827B0426BB9BB700DB86E6 /* Publishers */,
 				02827AFD26BA465500DB86E6 /* Models */,
 				02D340F826B904FF00145932 /* Services */,
 				0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */,
@@ -492,6 +518,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02827B0E26C10F4400DB86E6 /* ChallengeListViewModel.swift in Sources */,
+				02827B0626BB9BE800DB86E6 /* AuthPublisher.swift in Sources */,
 				02D842E626A2826C00C83BA1 /* PrimaryButtonStyle.swift in Sources */,
 				02D842BD26A27ADD00C83BA1 /* LandingView.swift in Sources */,
 				02D842BB26A27ADD00C83BA1 /* IncrementApp.swift in Sources */,
@@ -500,8 +528,12 @@
 				02D842E826A2845E00C83BA1 /* ColorExtensions.swift in Sources */,
 				024838D526A52C0400B96D24 /* CreateChallengeViewModel.swift in Sources */,
 				02D340FA26B9052500145932 /* UserService.swift in Sources */,
+				02827B0826C08FD000DB86E6 /* TabContainerView.swift in Sources */,
+				02827B1026C1103600DB86E6 /* QuerySnapshotPublisher.swift in Sources */,
 				029691DA26A415C000B2AA5D /* RemindView.swift in Sources */,
+				02827B0C26C10F1400DB86E6 /* ChallengeListView.swift in Sources */,
 				02827B0126BA476A00DB86E6 /* ChallengeService.swift in Sources */,
+				02827B0A26C0904900DB86E6 /* TabContainerViewModel.swift in Sources */,
 				023F642D26A4089D001DCF6B /* CreateView.swift in Sources */,
 				023F642F26A40943001DCF6B /* DropdownView.swift in Sources */,
 				02827B0326BA777200DB86E6 /* IncrementError.swift in Sources */,
