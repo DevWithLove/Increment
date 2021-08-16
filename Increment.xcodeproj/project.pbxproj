@@ -31,6 +31,7 @@
 		02D842D826A27ADE00C83BA1 /* IncrementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D842D726A27ADE00C83BA1 /* IncrementUITests.swift */; };
 		02D842E626A2826C00C83BA1 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D842E526A2826C00C83BA1 /* PrimaryButtonStyle.swift */; };
 		02D842E826A2845E00C83BA1 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D842E726A2845E00C83BA1 /* ColorExtensions.swift */; };
+		02E2E57426CA430F00FFFA22 /* ChallengeItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E2E57326CA430F00FFFA22 /* ChallengeItemViewModel.swift */; };
 		248713D7DB40556AD07CF566 /* Pods_Increment_IncrementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7856254082190AC787D33C6 /* Pods_Increment_IncrementUITests.framework */; };
 		96374C83B284280C834A5CD2 /* Pods_Increment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685DAB727FDC4AF85AC3596E /* Pods_Increment.framework */; };
 		DF634EE2DB431FE9F1A3D78C /* Pods_IncrementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52E48C3BC3F8DD231AB0176 /* Pods_IncrementTests.framework */; };
@@ -84,6 +85,7 @@
 		02D842D926A27ADE00C83BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02D842E526A2826C00C83BA1 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 		02D842E726A2845E00C83BA1 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		02E2E57326CA430F00FFFA22 /* ChallengeItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeItemViewModel.swift; sourceTree = "<group>"; };
 		0E3492323706E5CD8A521264 /* Pods-IncrementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IncrementTests.release.xcconfig"; path = "Target Support Files/Pods-IncrementTests/Pods-IncrementTests.release.xcconfig"; sourceTree = "<group>"; };
 		31A8DB6E679E853A3EECAC81 /* Pods-Increment-IncrementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Increment-IncrementUITests.release.xcconfig"; path = "Target Support Files/Pods-Increment-IncrementUITests/Pods-Increment-IncrementUITests.release.xcconfig"; sourceTree = "<group>"; };
 		685DAB727FDC4AF85AC3596E /* Pods_Increment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Increment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +164,7 @@
 				024838D626A52CE200B96D24 /* DropdownItemProtocol.swift */,
 				02827B0926C0904900DB86E6 /* TabContainerViewModel.swift */,
 				02827B0D26C10F4400DB86E6 /* ChallengeListViewModel.swift */,
+				02E2E57326CA430F00FFFA22 /* ChallengeItemViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 				02D842E626A2826C00C83BA1 /* PrimaryButtonStyle.swift in Sources */,
 				02D842BD26A27ADD00C83BA1 /* LandingView.swift in Sources */,
 				02D842BB26A27ADD00C83BA1 /* IncrementApp.swift in Sources */,
+				02E2E57426CA430F00FFFA22 /* ChallengeItemViewModel.swift in Sources */,
 				024838D726A52CE200B96D24 /* DropdownItemProtocol.swift in Sources */,
 				02827AFF26BA466B00DB86E6 /* Challenge.swift in Sources */,
 				02D842E826A2845E00C83BA1 /* ColorExtensions.swift in Sources */,
