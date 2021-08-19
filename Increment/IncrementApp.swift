@@ -4,6 +4,7 @@
 //
 //  Created by Tony Mu on 17/07/21.
 //
+// Refer: https://www.youtube.com/watch?v=6o8fx3K99j0&list=PLLvVbXNzMjkvLVmXOzUeAmcV-zeeIcU_m&index=16
 
 import SwiftUI
 import Firebase
@@ -24,7 +25,6 @@ struct IncrementApp: App {
         }
     }
 }
-
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {

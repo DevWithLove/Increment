@@ -136,7 +136,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1F3D21E6-B4E8-4092-9667-09B9A5EFD60D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Increment/UI/ViewModels/CreateChallengeViewModel.swift"
@@ -152,7 +152,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F2DF3047-F563-4B59-BF58-B14FB49DAA57"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Increment/UI/ViewModels/CreateChallengeViewModel.swift"
@@ -168,7 +168,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "7373A08D-4587-469F-BDEE-750E068D8F59"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Increment/Services/ChallengeService.swift"
@@ -184,7 +184,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "BB8346D2-73CD-4795-A2E9-178A1743E5E0"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Increment/Services/ChallengeService.swift"
@@ -200,7 +200,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "755DF6E5-3F94-4C5E-8DFF-BE5F6B4859EA"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Increment/Services/ChallengeService.swift"
@@ -216,7 +216,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "FF5890C0-8442-480F-9ABD-17F933DFDAF0"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Increment/Services/ChallengeService.swift"
@@ -232,7 +232,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C2FBC8C8-34D6-4DEB-B086-1B74294AB9A3"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Increment/Services/ChallengeService.swift"
@@ -242,6 +242,54 @@
             endingLineNumber = "42"
             landmarkName = "observeChallenges(userId:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4503A70-A4DC-48BA-9A46-4EB873E8E2AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Increment/Services/ChallengeService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "observeChallenges(userId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D4503A70-A4DC-48BA-9A46-4EB873E8E2AA - 35b3352c23d8ed80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Increment.ChallengeService.observeChallenges(userId: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;Increment.Challenge&gt;, Increment.IncrementError&gt;"
+                  moduleName = "Increment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonymu/Dev/Increment/Increment/Services/ChallengeService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "841">
+               </Location>
+               <Location
+                  uuid = "D4503A70-A4DC-48BA-9A46-4EB873E8E2AA - 23860fe4bdf113f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRQuerySnapshot) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;Increment.Challenge&gt;, Increment.IncrementError&gt; in Increment.ChallengeService.observeChallenges(userId: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;Increment.Challenge&gt;, Increment.IncrementError&gt;"
+                  moduleName = "Increment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonymu/Dev/Increment/Increment/Services/ChallengeService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "825">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -128,15 +128,10 @@
 		023F642926A3F04A001DCF6B /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				02E2E5B326CE07E700FFFA22 /* Views */,
 				024838D326A52BE900B96D24 /* ViewModels */,
 				023F642B26A3F095001DCF6B /* Helpers */,
 				023F642A26A3F07D001DCF6B /* Modifiers */,
-				02D842BC26A27ADD00C83BA1 /* LandingView.swift */,
-				023F642C26A4089D001DCF6B /* CreateView.swift */,
-				023F642E26A40943001DCF6B /* DropdownView.swift */,
-				029691D926A415C000B2AA5D /* RemindView.swift */,
-				02827B0726C08FD000DB86E6 /* TabContainerView.swift */,
-				02827B0B26C10F1400DB86E6 /* ChallengeListView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -258,6 +253,19 @@
 				02D842D926A27ADE00C83BA1 /* Info.plist */,
 			);
 			path = IncrementUITests;
+			sourceTree = "<group>";
+		};
+		02E2E5B326CE07E700FFFA22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02D842BC26A27ADD00C83BA1 /* LandingView.swift */,
+				023F642C26A4089D001DCF6B /* CreateView.swift */,
+				023F642E26A40943001DCF6B /* DropdownView.swift */,
+				029691D926A415C000B2AA5D /* RemindView.swift */,
+				02827B0726C08FD000DB86E6 /* TabContainerView.swift */,
+				02827B0B26C10F1400DB86E6 /* ChallengeListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		32F77B4BDDBED457CEE72786 /* Pods */ = {
