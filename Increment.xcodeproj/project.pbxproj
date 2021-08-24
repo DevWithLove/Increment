@@ -22,6 +22,9 @@
 		02827B1026C1103600DB86E6 /* QuerySnapshotPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827B0F26C1103600DB86E6 /* QuerySnapshotPublisher.swift */; };
 		0290E06826B8D84F00C39D08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */; };
 		029691DA26A415C000B2AA5D /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029691D926A415C000B2AA5D /* RemindView.swift */; };
+		029A79BA26D47FBE0054A950 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029A79B926D47FBE0054A950 /* SettingsView.swift */; };
+		029A79BC26D47FDF0054A950 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029A79BB26D47FDF0054A950 /* SettingsViewModel.swift */; };
+		029A79BE26D47FF80054A950 /* SettingsItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029A79BD26D47FF80054A950 /* SettingsItemViewModel.swift */; };
 		02D340FA26B9052500145932 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D340F926B9052500145932 /* UserService.swift */; };
 		02D842BB26A27ADD00C83BA1 /* IncrementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D842BA26A27ADD00C83BA1 /* IncrementApp.swift */; };
 		02D842BD26A27ADD00C83BA1 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D842BC26A27ADD00C83BA1 /* LandingView.swift */; };
@@ -70,6 +73,9 @@
 		02827B0F26C1103600DB86E6 /* QuerySnapshotPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuerySnapshotPublisher.swift; sourceTree = "<group>"; };
 		0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		029691D926A415C000B2AA5D /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
+		029A79B926D47FBE0054A950 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		029A79BB26D47FDF0054A950 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		029A79BD26D47FF80054A950 /* SettingsItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemViewModel.swift; sourceTree = "<group>"; };
 		02D340F926B9052500145932 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		02D842B726A27ADD00C83BA1 /* Increment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Increment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D842BA26A27ADD00C83BA1 /* IncrementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementApp.swift; sourceTree = "<group>"; };
@@ -160,6 +166,8 @@
 				02827B0926C0904900DB86E6 /* TabContainerViewModel.swift */,
 				02827B0D26C10F4400DB86E6 /* ChallengeListViewModel.swift */,
 				02E2E57326CA430F00FFFA22 /* ChallengeItemViewModel.swift */,
+				029A79BB26D47FDF0054A950 /* SettingsViewModel.swift */,
+				029A79BD26D47FF80054A950 /* SettingsItemViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -264,6 +272,7 @@
 				029691D926A415C000B2AA5D /* RemindView.swift */,
 				02827B0726C08FD000DB86E6 /* TabContainerView.swift */,
 				02827B0B26C10F1400DB86E6 /* ChallengeListView.swift */,
+				029A79B926D47FBE0054A950 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -529,7 +538,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				029A79BA26D47FBE0054A950 /* SettingsView.swift in Sources */,
 				02827B0E26C10F4400DB86E6 /* ChallengeListViewModel.swift in Sources */,
+				029A79BE26D47FF80054A950 /* SettingsItemViewModel.swift in Sources */,
 				02827B0626BB9BE800DB86E6 /* AuthPublisher.swift in Sources */,
 				02D842E626A2826C00C83BA1 /* PrimaryButtonStyle.swift in Sources */,
 				02D842BD26A27ADD00C83BA1 /* LandingView.swift in Sources */,
@@ -547,6 +558,7 @@
 				02827B0126BA476A00DB86E6 /* ChallengeService.swift in Sources */,
 				02827B0A26C0904900DB86E6 /* TabContainerViewModel.swift in Sources */,
 				023F642D26A4089D001DCF6B /* CreateView.swift in Sources */,
+				029A79BC26D47FDF0054A950 /* SettingsViewModel.swift in Sources */,
 				023F642F26A40943001DCF6B /* DropdownView.swift in Sources */,
 				02827B0326BA777200DB86E6 /* IncrementError.swift in Sources */,
 			);
