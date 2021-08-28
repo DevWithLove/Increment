@@ -10,6 +10,7 @@ import SwiftUI
 final class SettingsViewModel: ObservableObject {
     @AppStorage("isDarkMode") private var isDarkMode = false
     @Published private(set) var itemViewModels: [SettingsItemViewModel] = []
+    @Published var loginSignupPushed = false
     let title = "Settings"
     
     func item(at index: Int) -> SettingsItemViewModel {
@@ -18,6 +19,8 @@ final class SettingsViewModel: ObservableObject {
     
     func tappedItem(at index: Int) {
         switch item(at: index).type {
+        case .account:
+            loginSignupPushed = true
         case .mode:
             isDarkMode = !isDarkMode
         default:
