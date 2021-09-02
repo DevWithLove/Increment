@@ -24,6 +24,8 @@
 		028D629026D9F3F700CDFA10 /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D628F26D9F3F600CDFA10 /* LoginSignupView.swift */; };
 		028D629226D9F48400CDFA10 /* LoginSignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D629126D9F48400CDFA10 /* LoginSignupViewModel.swift */; };
 		028D629426DA217100CDFA10 /* TextFieldCustomRoundedStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D629326DA217100CDFA10 /* TextFieldCustomRoundedStyle.swift */; };
+		028D629626E0BA2B00CDFA10 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D629526E0BA2B00CDFA10 /* ProgressCircleView.swift */; };
+		028D629826E0BACB00CDFA10 /* PorgressCircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D629726E0BACB00CDFA10 /* PorgressCircleViewModel.swift */; };
 		0290E06826B8D84F00C39D08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */; };
 		029691DA26A415C000B2AA5D /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029691D926A415C000B2AA5D /* RemindView.swift */; };
 		029A79BA26D47FBE0054A950 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029A79B926D47FBE0054A950 /* SettingsView.swift */; };
@@ -79,6 +81,8 @@
 		028D628F26D9F3F600CDFA10 /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
 		028D629126D9F48400CDFA10 /* LoginSignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewModel.swift; sourceTree = "<group>"; };
 		028D629326DA217100CDFA10 /* TextFieldCustomRoundedStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomRoundedStyle.swift; sourceTree = "<group>"; };
+		028D629526E0BA2B00CDFA10 /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		028D629726E0BACB00CDFA10 /* PorgressCircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorgressCircleViewModel.swift; sourceTree = "<group>"; };
 		0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		029691D926A415C000B2AA5D /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
 		029A79B926D47FBE0054A950 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -179,6 +183,7 @@
 				029A79BD26D47FF80054A950 /* SettingsItemViewModel.swift */,
 				028D628D26D9F0F000CDFA10 /* LandingViewModel.swift */,
 				028D629126D9F48400CDFA10 /* LoginSignupViewModel.swift */,
+				028D629726E0BACB00CDFA10 /* PorgressCircleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 				02827B0B26C10F1400DB86E6 /* ChallengeListView.swift */,
 				029A79B926D47FBE0054A950 /* SettingsView.swift */,
 				028D628F26D9F3F600CDFA10 /* LoginSignupView.swift */,
+				028D629526E0BA2B00CDFA10 /* ProgressCircleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -559,6 +565,7 @@
 				02D842E626A2826C00C83BA1 /* PrimaryButtonStyle.swift in Sources */,
 				028D629226D9F48400CDFA10 /* LoginSignupViewModel.swift in Sources */,
 				02D842BD26A27ADD00C83BA1 /* LandingView.swift in Sources */,
+				028D629626E0BA2B00CDFA10 /* ProgressCircleView.swift in Sources */,
 				02D842BB26A27ADD00C83BA1 /* IncrementApp.swift in Sources */,
 				02E2E57426CA430F00FFFA22 /* ChallengeItemViewModel.swift in Sources */,
 				024838D726A52CE200B96D24 /* DropdownItemProtocol.swift in Sources */,
@@ -567,6 +574,7 @@
 				02D842E826A2845E00C83BA1 /* ColorExtensions.swift in Sources */,
 				024838D526A52C0400B96D24 /* CreateChallengeViewModel.swift in Sources */,
 				02D340FA26B9052500145932 /* UserService.swift in Sources */,
+				028D629826E0BACB00CDFA10 /* PorgressCircleViewModel.swift in Sources */,
 				02827B0826C08FD000DB86E6 /* TabContainerView.swift in Sources */,
 				02827B1026C1103600DB86E6 /* QuerySnapshotPublisher.swift in Sources */,
 				029691DA26A415C000B2AA5D /* RemindView.swift in Sources */,

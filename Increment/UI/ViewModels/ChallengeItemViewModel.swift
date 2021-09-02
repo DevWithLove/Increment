@@ -14,6 +14,15 @@ struct ChallengeItemViewModel: Hashable {
         challenge.exercise.capitalized
     }
     
+    var progressCircleViewModel: ProgressCircleViewModel {
+        let dayNumber = daysFromStart + 1
+        let title = "Day"
+        let message = isComplete ? "Done" :  "\(dayNumber) of \(challenge.length)"
+        return .init(title: title,
+                     message: message,
+                     percentageComplete: Double(dayNumber) / Double(challenge.length))
+    }
+    
     private var daysFromStart: Int {
         let startDate = Calendar.current.startOfDay(for: challenge.startDate)
         let toDate = Calendar.current.startOfDay(for: Date())

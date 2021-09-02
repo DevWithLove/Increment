@@ -84,9 +84,8 @@ struct ChallengeItemView: View {
             Spacer()
             VStack {
                 titleRow
-                Text(viewModel.statesText)
-                    .font(.system(size: 12, weight: .bold))
-                    .padding(25)
+                ProgressCircleView(viewModel: viewModel.progressCircleViewModel)
+                    .padding(.vertical, 25)
                 dailyIncreaserRow
             }.padding(.vertical, 10)
             Spacer()
