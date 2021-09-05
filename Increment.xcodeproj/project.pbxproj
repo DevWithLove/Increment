@@ -26,6 +26,7 @@
 		028D629426DA217100CDFA10 /* TextFieldCustomRoundedStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D629326DA217100CDFA10 /* TextFieldCustomRoundedStyle.swift */; };
 		028D629626E0BA2B00CDFA10 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D629526E0BA2B00CDFA10 /* ProgressCircleView.swift */; };
 		028D629826E0BACB00CDFA10 /* PorgressCircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D629726E0BACB00CDFA10 /* PorgressCircleViewModel.swift */; };
+		02900F0C26E488410086C093 /* ChallengeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02900F0B26E488410086C093 /* ChallengeItemView.swift */; };
 		0290E06826B8D84F00C39D08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */; };
 		029691DA26A415C000B2AA5D /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029691D926A415C000B2AA5D /* RemindView.swift */; };
 		029A79BA26D47FBE0054A950 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029A79B926D47FBE0054A950 /* SettingsView.swift */; };
@@ -83,6 +84,7 @@
 		028D629326DA217100CDFA10 /* TextFieldCustomRoundedStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomRoundedStyle.swift; sourceTree = "<group>"; };
 		028D629526E0BA2B00CDFA10 /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
 		028D629726E0BACB00CDFA10 /* PorgressCircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorgressCircleViewModel.swift; sourceTree = "<group>"; };
+		02900F0B26E488410086C093 /* ChallengeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeItemView.swift; sourceTree = "<group>"; };
 		0290E06726B8D84F00C39D08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		029691D926A415C000B2AA5D /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
 		029A79B926D47FBE0054A950 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 				029A79B926D47FBE0054A950 /* SettingsView.swift */,
 				028D628F26D9F3F600CDFA10 /* LoginSignupView.swift */,
 				028D629526E0BA2B00CDFA10 /* ProgressCircleView.swift */,
+				02900F0B26E488410086C093 /* ChallengeItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -563,6 +566,7 @@
 				028D629026D9F3F700CDFA10 /* LoginSignupView.swift in Sources */,
 				028D629426DA217100CDFA10 /* TextFieldCustomRoundedStyle.swift in Sources */,
 				02D842E626A2826C00C83BA1 /* PrimaryButtonStyle.swift in Sources */,
+				02900F0C26E488410086C093 /* ChallengeItemView.swift in Sources */,
 				028D629226D9F48400CDFA10 /* LoginSignupViewModel.swift in Sources */,
 				02D842BD26A27ADD00C83BA1 /* LandingView.swift in Sources */,
 				028D629626E0BA2B00CDFA10 /* ProgressCircleView.swift in Sources */,
